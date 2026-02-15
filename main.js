@@ -10,6 +10,10 @@ const i18n = {
 
     hero_kicker: "Notre Mariage",
     hero_names: "André & Lusiné",
+    hero_name1: "André",
+    hero_and: "&",
+    hero_name2: "Lusiné",
+
     hero_date: "Samedi 9 mai 2026",
     hero_city: "Nancy",
     hero_cta: "Confirmer ma présence",
@@ -68,6 +72,10 @@ const i18n = {
 
     hero_kicker: "Մեր հարսանիքը",
     hero_names: "Անդրե և Լուսինե",
+    hero_name1: "Անդրե",
+    hero_and: "և",
+    hero_name2: "Լուսինե",
+
     hero_date: "Շաբաթ, 9 մայիս 2026",
     hero_city: "Նանսի",
     hero_cta: "Հաստատել մասնակցությունը",
