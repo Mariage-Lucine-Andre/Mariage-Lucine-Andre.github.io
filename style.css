@@ -23,6 +23,9 @@
   --container:1120px;
   --px:24px;
 
+  --hero-pos-desktop: 32% 38%;
+  --hero-pos-mobile: 35% 52%;
+
   /* Fonts (FR/HY proprement) */
   --font-body: "Noto Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   --font-serif: "Noto Serif", serif;
@@ -263,12 +266,16 @@ section[id]{ scroll-margin-top: 90px; }
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position: 32% 72%;
+  object-position: var(--hero-pos-desktop);
   opacity:.94;
   transform:scale(1.04);
   filter: contrast(1.03) saturate(1.02);
 }
 
+/* mobile */
+@media (max-width: 980px){
+  .hero__bg img{ object-position: var(--hero-pos-mobile); }
+}
 /* Overlay plus élégant + léger */
 .hero::after{
   content:"";
